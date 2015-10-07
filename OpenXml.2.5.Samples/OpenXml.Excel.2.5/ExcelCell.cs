@@ -12,7 +12,7 @@ namespace OpenXml.Excel
     {
         public static String GetCellRawValue(Cell cellObject)
         {
-            String CellRawValue = "";
+            String CellRawValue = ""; // ini comment
             CellRawValue = cellObject.CellValue.Text;
             return CellRawValue;
         }
