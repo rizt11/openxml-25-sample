@@ -17,13 +17,13 @@ namespace OpenXml.Excel
             return CellRawValue;
         }
 
-        public static String GetCellRawValueByLocation(String cellLocation, String sheetname, SpreadsheetDocument spreadsheetObj)
+        public static String GetCellRawValue(String cellLocation, String sheetname, SpreadsheetDocument spreadsheetObj)
         {
             String CellRawValue = "";
             return CellRawValue;
         }
 
-        public static String GetCellRawValueByLocation(String cellLocation, Worksheet sheetObj, SpreadsheetDocument spreadsheetObj)
+        public static String GetCellRawValue(String cellLocation, Worksheet sheetObj, SpreadsheetDocument spreadsheetObj)
         {
             String CellRawValue = "";
             return CellRawValue;
