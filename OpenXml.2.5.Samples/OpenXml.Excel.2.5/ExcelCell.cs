@@ -50,7 +50,7 @@ namespace OpenXml.Excel
                             break;
                         }
                     default:
-                        break;
+                        break; // should throw an exception
                 }
             }
             else
