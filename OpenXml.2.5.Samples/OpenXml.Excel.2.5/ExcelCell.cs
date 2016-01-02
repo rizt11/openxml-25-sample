@@ -12,7 +12,7 @@ namespace OpenXml.Excel
     {
         public static String GetCellRawValue(Cell cellObject)
         {
-            String CellRawValue = "";
+            String CellRawValue = ""; // ini comment
             CellRawValue = cellObject.CellValue.Text;
             return CellRawValue;
         }
@@ -31,9 +31,9 @@ namespace OpenXml.Excel
 
         #region Get cell values with strong type support
 
-        public static Boolean GetCellBooleanValue(Cell cellObject)
+        public static bool GetCellBooleanValue(Cell cellObject)
         {
-            Boolean boolCellValue = false;
+            bool boolCellValue = false; // <-- this must be true
             String cellRawValue = GetCellRawValue(cellObject);
             if (cellObject.DataType == CellValues.Boolean)
             {
@@ -76,9 +76,9 @@ namespace OpenXml.Excel
             return strCellValue;
         }
 
-        public static Boolean GetCellBooleanValueByLocation(String cellLocation, String sheetname, SpreadsheetDocument spreadsheetObj)
+        public static bool GetCellBooleanValueByLocation(String cellLocation, String sheetname, SpreadsheetDocument spreadsheetObj)
         {
-            Boolean boolCellValue = false;
+            bool boolCellValue = false;
             return boolCellValue;
         }
         #endregion

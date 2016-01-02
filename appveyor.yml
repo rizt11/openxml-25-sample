@@ -1,0 +1,5 @@
+version: 1.0.0.{build}
+
+environment:
+  COVERALLS_REPO_TOKEN:
+  secure: PKKYf5euA1hIUt30b9/TlAfdgSS8pPNX03Bebo/usnoZSqvc9deux4V8Ll9P1D4t
